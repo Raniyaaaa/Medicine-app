@@ -7,6 +7,7 @@ const CartContext=React.createContext({
     addToCart:(id)=>{},
     cartItems:[],
     showCart:false,
-    
+    fetchItems: ()=> {},
+    fetchCartItems : () => {}
 })
 export default CartContext;
